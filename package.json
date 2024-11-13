@@ -1,5 +1,5 @@
 {
-  "name": "iotkreasi",
+  "name": "iotkreasi-ui-library",
   "version": "1.0.0",
   "description": "A component for IoT Kreasi Project reusable component IoT Devices",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "ui",
     "iot"
   ],
-  "author": "Kanrishaurus",
+  "author": "brillianodhiya",
   "license": "ISC",
   "repository": {
     "type": "git",

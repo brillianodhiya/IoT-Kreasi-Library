@@ -17,13 +17,13 @@ This project is a React.js component designed to interface with IoT devices. It 
 To install the component, use npm or yarn:
 
 ```bash
-npm install @kanrishaurus/iotkreasi-ui-library
+npm install iotkreasi-ui-library
 ```
 
 or
 
 ```bash
-yarn add @kanrishaurus/iotkreasi-ui-library
+yarn add iotkreasi-ui-library
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Here's a basic example of how to use the IoT Kreasi UI Library Component in your
 
 ```jsx
 import React from "react";
-import IoTDeviceUI from "@kanrishaurus/iotkreasi-ui-library";
+import IoTDeviceUI from "iotkreasi-ui-library";
 
 function App() {
   return (
