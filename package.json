@@ -1,10 +1,15 @@
 {
   "name": "iotkreasi-ui-library",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "A component for IoT Kreasi Project reusable component IoT Devices",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc && babel src -d dist",
+    "build": "tsc --declaration && babel src -d dist",
     "start": "react-scripts start",
     "build:prod": "react-scripts build",
     "test": "jest",
