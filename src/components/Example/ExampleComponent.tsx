@@ -16,7 +16,7 @@ const ExampleComponent = ({
 }: Props) => {
   return (
     <button
-      className={styles.button}
+      className={"test-component-class2 " + styles.button}
       style={style}
       type={type}
       onClick={onClick}

@@ -3,10 +3,13 @@
     "target": "es5",
     "module": "commonjs",
     "outDir": "dist",
+    "rootDir": "src",
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "jsx": "react",
+    "declaration": true,
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   }
   // "include": ["src"],

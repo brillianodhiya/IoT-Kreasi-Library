@@ -1,0 +1,15 @@
+.test-component-class {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.test-component-class2 {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
