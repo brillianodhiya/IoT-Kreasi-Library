@@ -14,7 +14,7 @@ const config: StorybookConfig = {
     "@storybook/addon-designs",
     // Build responsive components by adjusting Storybook’s viewport size and orientation https://storybook.js.org/addons/@storybook/addon-viewport
     "@storybook/addon-viewport",
-    "@storybook/addon-mdx-gfm"
+    "@storybook/addon-mdx-gfm",
   ],
 
   framework: {
@@ -25,7 +25,7 @@ const config: StorybookConfig = {
   docs: {},
 
   typescript: {
-    reactDocgen: "react-docgen-typescript"
-  }
+    reactDocgen: "react-docgen-typescript",
+  },
 };
 export default config;

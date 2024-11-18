@@ -1,12 +1,11 @@
 import React from "react";
-
-type Props = {
+export interface ExampleComponentProps {
   onClick?: () => void;
   style?: React.CSSProperties;
   type?: "button" | "submit" | "reset"; // Define the prop
   children?: React.ReactNode;
   className?: string; // Define the prop
-};
+}
 
 const ExampleComponent = ({
   type = "button",
@@ -14,10 +13,10 @@ const ExampleComponent = ({
   style,
   children,
   className,
-}: Props) => {
+}: ExampleComponentProps) => {
   return (
     <button
-      className={"test-component-class2 " + className}
+      className={"test-component-class " + className}
       style={style}
       type={type}
       onClick={onClick}
