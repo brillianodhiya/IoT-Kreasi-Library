@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: "ts-loader",
-        exclude: /node_modules|\.test\.tsx$/, // Exclude test files
+        exclude: /node_modules|\.test\.tsx|src\/stories/, // Exclude test files and stories folder
       },
       {
         test: /\.css$/,

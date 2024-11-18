@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./example.module.css";
 
 type Props = {
   onClick?: () => void;
   style?: React.CSSProperties;
   type?: "button" | "submit" | "reset"; // Define the prop
   children?: React.ReactNode;
+  className?: string; // Define the prop
 };
 
 const ExampleComponent = ({
@@ -13,10 +13,11 @@ const ExampleComponent = ({
   onClick,
   style,
   children,
+  className,
 }: Props) => {
   return (
     <button
-      className={"test-component-class2 " + styles.button}
+      className={"test-component-class2 " + className}
       style={style}
       type={type}
       onClick={onClick}
