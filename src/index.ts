@@ -6,3 +6,12 @@ export { Button as ExampleButtonStoryBook } from "./stories/Button";
 // function
 export { rupiahCurrency } from "./components/lib/Currency";
 export type { CurrencyProps } from "./components/lib/Currency";
+
+export {
+  convertNumberSm,
+  converNumberSmNotFixed,
+} from "./components/lib/Usage";
+export type {
+  NumberFormatter,
+  NumberFormatterNotFixed,
+} from "./components/lib/Usage";
