@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { rupiahCurrency } from "../lib";
+import { rupiahCurrency } from "../index";
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 
 // WeCurrency tidak memiliki return element, dia hanya mereturn string bagaimana storeis nya, inputan yang diperlukan hanyalah angka
 const meta = {
-  title: "lib/RupiahCurrency",
+  title: "Utilities/RupiahCurrency",
   component: rupiahCurrency,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
