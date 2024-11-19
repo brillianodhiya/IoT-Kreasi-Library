@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <h1>IoT Device Dashboard</h1>
-      <IoTDeviceUI deviceId="your-device-id" />
+      <Button label="Button" onClick={() => {}} size="large" />
     </div>
   );
 }
@@ -46,22 +46,13 @@ function App() {
 export default App;
 ```
 
-## Props
-
-- `deviceId` (string): The ID of the IoT device to connect to.
-- `theme` (string, optional): The theme of the UI component (e.g., 'light', 'dark').
-
-## Contributing
-
-We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, please contact us at support@iotiki.com.
+For any questions or feedback, please contact us at brillidhiya@brillianodhiya.
 
 ## Changelog
 
