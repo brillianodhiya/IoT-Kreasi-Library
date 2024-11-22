@@ -1,7 +1,8 @@
 // import { InputRef, Table } from "antd";
-import { Result, Table } from "antd";
+import Table from "antd/es/table";
 // import { FilterConfirmProps } from "antd/es/table/interface";
-import moment from "moment";
+// import moment from "moment";
+import dayjs from "dayjs";
 import React from "react";
 export interface DynamicTablesProps {
   dataSource: any[];
@@ -40,7 +41,7 @@ const DynamicTables = ({
     }
     return (
       <div style={style} className={className}>
-        <Result status="404" title="No Data Found" />
+        No data available in the table
       </div>
     );
   }
@@ -89,7 +90,7 @@ const DynamicTables = ({
                       } else if (typeof a[val] === "boolean") {
                         return a[val] === b[val] ? 0 : a[val] ? 1 : -1;
                       } else if (typeof a[val] === "object") {
-                        return moment(a[val]).unix() - moment(b[val]).unix();
+                        return dayjs(a[val]).unix() - dayjs(b[val]).unix();
                       }
                       return 0;
                     }
